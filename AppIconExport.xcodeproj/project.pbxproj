@@ -22,6 +22,7 @@
 		4E1B7D2B2375601D00E5757F /* PKImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B7D292375601D00E5757F /* PKImageManager.m */; };
 		4E1B7D2E2375623E00E5757F /* NSString+NormalMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B7D2D2375623E00E5757F /* NSString+NormalMethod.m */; };
 		4E1B7D3123757E6C00E5757F /* imageHolder.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E1B7D2F23757E6200E5757F /* imageHolder.jpeg */; };
+		4E99218425946F5800ABF856 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E99218325946F5800ABF856 /* libc.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		4E1B7D2C2375623E00E5757F /* NSString+NormalMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NormalMethod.h"; sourceTree = "<group>"; };
 		4E1B7D2D2375623E00E5757F /* NSString+NormalMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NormalMethod.m"; sourceTree = "<group>"; };
 		4E1B7D2F23757E6200E5757F /* imageHolder.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageHolder.jpeg; sourceTree = "<group>"; };
+		4E99218325946F5800ABF856 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E99218425946F5800ABF856 /* libc.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +111,7 @@
 				4E1B7CE8237555C500E5757F /* AppIconExportTests */,
 				4E1B7CF3237555C500E5757F /* AppIconExportUITests */,
 				4E1B7CD3237555C400E5757F /* Products */,
+				4E99218225946F5800ABF856 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,6 +181,14 @@
 				4E1B7D1D23755E7000E5757F /* AGUtil.h */,
 			);
 			path = RMDTools;
+			sourceTree = "<group>";
+		};
+		4E99218225946F5800ABF856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E99218325946F5800ABF856 /* libc.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

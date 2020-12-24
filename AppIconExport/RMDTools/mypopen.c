@@ -13,6 +13,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <sys/types.h>
+#include <libc.h>
 
 /*
  * Pointer to array allocated at run-time.
